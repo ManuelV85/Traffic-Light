@@ -38,10 +38,10 @@ const Home = () => {
 	} if(color!=""){
 		return(
 			
-			<h1>Invalid Traffic Light</h1>
+			<h1>Red Light Broken</h1>
 		)
 	}
-	//Invalid color we have it. Once no color selected then clicked on the red color we will get issue.
+	
 	return (
 		<div className="trafficLight">
 			<div className="red" onClick={()=> setColor("black")}></div>
